@@ -1,0 +1,23 @@
+{
+  "name": "adhim-portfolio-unim",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Editorial-style developer & student portfolio website for Ahmad Fauzul Adhim — Teknik Informatika UNIM",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "gsap": "^3.12.7",
+    "lenis": "^1.1.20",
+    "lucide-react": "^0.469.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.7"
+  }
+}

@@ -1,0 +1,33 @@
+/* ==========================================================================
+   DESIGN TOKENS — EDITORIAL HIGH-FASHION SYSTEM
+   ========================================================================== */
+:root {
+  /* Color Palette */
+  --bg-light: #f4f4f2;
+  --bg-dark: #161616;
+  --bg-surface-dark: #1d1d1d;
+  --text-dark: #161616;
+  --text-light: #f4f4f2;
+  --text-muted: #7a7a7a;
+  --text-muted-light: #9a9a98;
+  --border-dark: rgba(22, 22, 22, 0.18);
+  --border-dark-strong: rgba(22, 22, 22, 0.32);
+  --border-light: rgba(244, 244, 242, 0.14);
+  --border-light-strong: rgba(244, 244, 242, 0.3);
+
+  /* Typography */
+  --font-display: 'Bodoni Moda', 'Playfair Display', 'Cinzel', Georgia, serif;
+  --font-serif: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+  --font-editorial: 'Cormorant Garamond', 'Playfair Display', Georgia, serif;
+  --font-script: 'Pinyon Script', 'Cormorant Garamond', cursive;
+  --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-jp: 'Noto Sans JP', sans-serif;
+
+  /* Layout & Timing */
+  --nav-height: 64px;
+  --container-max: 1360px;
+  --container-pad: clamp(1.25rem, 4.5vw, 4.5rem);
+  --ease-editorial: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-expo: cubic-bezier(0.16, 1, 0.3, 1);
+}
