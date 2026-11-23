@@ -10,8 +10,8 @@ Website portofolio single-page bergaya **high-fashion editorial** yang dibangun 
 adhim-portfolio-unim/
 ├── public/
 │   └── images/
-│       ├── hero-cutout.png         # Foto utama cutout transparan (dari 6.png)
-│       ├── profile-portrait.jpg    # Foto potret 3:4 untuk Section 01 PROFIL
+│       ├── hero-cutout.png         # Photo utama cutout transparan (dari 6.png)
+│       ├── profile-portrait.jpg    # Photo potret 3:4 untuk Section 01 PROFIL
 │       ├── expertise-01..03.png    # Gambar hover preview Section 02 KEAHLIAN
 │       └── projects/
 │           └── prj-01..07.png      # Cover mockup 7 proyek di Section 04 PROJECTS
@@ -41,7 +41,7 @@ adhim-portfolio-unim/
 
 ---
 
-## Cara Menjalankan di VS Code (Lokal)
+## Cara Menjalankan di VS Code (Local)
 
 > **PENTING (Jangan Pakai Live Server!):**  
 > Karena proyek ini menggunakan **React + Vite**, **jangan** membuka `index.html` lewat ekstensi _Live Server_ (`localhost:5500`) karena browser tidak bisa menjalankan file `.jsx` secara langsung (tampilan akan hitam kosong). Selalu jalankan lewat terminal VS Code menggunakan `npm run dev` lalu buka **`http://localhost:5173`**.
@@ -59,7 +59,7 @@ adhim-portfolio-unim/
 
 ---
 
-## Cara Mengubah Konten & Foto
+## Cara Mengubah Konten & Photo
 
 - **Ubah Biodata, Daftar Proyek, Link GitHub/LinkedIn/Instagram/Email:**
   Buka file `src/data/portfolioData.js`. Semua teks dikelompokkan rapi di satu file.
