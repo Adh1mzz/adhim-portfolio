@@ -1,6 +1,6 @@
-# Portofolio Editorial — Ahmad Fauzul Adhim (Teknik Informatika UNIM)
+# Portofolio Editorial — Ahmad Fauzul Adhim (Informatika UNIM)
 
-Website portofolio single-page bergaya **high-fashion editorial** yang dibangun menggunakan **React 18 + Vite 6 + CSS3 + GSAP (ScrollTrigger) + Lenis Smooth Scroll**, diadaptasi dari referensi animasi dan tata letak `portofolio.mp4` serta siap di-deploy ke **Vercel**.
+Website portofolio single-page bergaya **high-fashion editorial** yang dibangun menggunakan **React 18 + Vite 6 + CSS3 + GSAP (ScrollTrigger) + Lenis Smooth Scroll**, serta siap di-deploy ke **Vercel**.
 
 ---
 
@@ -44,8 +44,7 @@ adhim-portfolio-unim/
 ## Cara Menjalankan di VS Code (Lokal)
 
 > **PENTING (Jangan Pakai Live Server!):**  
-> Karena proyek ini menggunakan **React + Vite**, **jangan** membuka `index.html` lewat ekstensi *Live Server* (`localhost:5500`) karena browser tidak bisa menjalankan file `.jsx` secara langsung (tampilan akan hitam kosong). Selalu jalankan lewat terminal VS Code menggunakan `npm run dev` lalu buka **`http://localhost:5173`**.
-
+> Karena proyek ini menggunakan **React + Vite**, **jangan** membuka `index.html` lewat ekstensi _Live Server_ (`localhost:5500`) karena browser tidak bisa menjalankan file `.jsx` secara langsung (tampilan akan hitam kosong). Selalu jalankan lewat terminal VS Code menggunakan `npm run dev` lalu buka **`http://localhost:5173`**.
 
 1. Ekstrak file ZIP lalu buka folder `adhim-portfolio-unim` di **VS Code**.
 2. Buka Terminal di VS Code (`Ctrl + ~`), lalu install dependencies:
@@ -74,6 +73,7 @@ adhim-portfolio-unim/
 ## Cara Deploy ke Vercel (Gratis & Instan)
 
 ### Opsi 1 — Via GitHub (Direkomendasikan)
+
 1. Push folder `adhim-portfolio-unim` ke repository GitHub Anda.
 2. Buka [vercel.com](https://vercel.com), klik **Add New → Project**.
 3. Import repository GitHub tersebut.
@@ -81,8 +81,10 @@ adhim-portfolio-unim/
 5. Klik **Deploy** — selesai!
 
 ### Opsi 2 — Langsung via Vercel CLI dari VS Code
+
 ```bash
 npm install -g vercel
 vercel
 ```
+
 Ikuti instruksi di terminal, dan website langsung online dengan URL `.vercel.app`.
